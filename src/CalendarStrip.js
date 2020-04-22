@@ -609,7 +609,6 @@ class CalendarStrip extends Component {
           this.props.style
         ]}
       >
-        <Text>TESTING THIS CHANGE!</Text>
         <View
           style={[this.props.innerStyle, { height: this.state.height }]}
           onLayout={this.onLayout.bind(this)}
