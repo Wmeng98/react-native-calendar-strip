@@ -70,6 +70,7 @@ class CalendarHeader extends Component {
     );
     return (
       <View style={this.props.calendarHeaderContainerStyle}>
+        <Text>Testing code changes...</Text>
         <Text
           style={[
             styles.calendarHeader,
